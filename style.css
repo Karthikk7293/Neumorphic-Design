@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'lato',sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background: #e0f0f3;
+}
+.login-div{
+    display: block;
+    width: 330px;
+    height: 600px;
+    text-align: center;
+    padding: 35px 35px 35px 35px;
+    border-radius: 30px;
+    background: #e0f0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff ;
+   
+}
+.login-div a{
+    text-decoration: none;
+    color: #555;
+    margin: 1rem;
+}
+/* span:hover + div{
+    display: block;
+    width: 330px;
+    height: 600px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: #e0f0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff ;
+                
+} */
+.logo{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    
+
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.sub-title{
+text-align: center;
+font-size: 1rem;
+letter-spacing: 1px;
+}
+.fields{
+width: 100%;
+ text-align: center; 
+padding: 75px 5px 5px 5px;
+}
+.fields input{
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    color: #555;
+    padding: 10px 5px 10px 5px;
+}
+.username ,.password{
+    border-radius: 25px;
+    margin-bottom: 20px;
+    box-shadow: inset 7px 7px 7px #cbced1,
+                inset -7px -7px 7px #ffffff;
+}
+.sign-in{
+    color: rgb(24, 22, 22);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 3rem;
+    background: none;
+}
